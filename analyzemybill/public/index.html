@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Character encoding -->
+  <meta charset="utf-8" />
+  <!-- Viewport & theme color -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#357ABD" />
+
+  <!-- Primary Meta Tags -->
+  <title>AnalyzeMyBill | AI Medical Bill Explanation &amp; Dispute Letters</title>
+  <meta name="description"
+    content="AnalyzeMyBill uses AI to explain your medical bills and insurance statements in plain English. Generate dispute letters, spot errors, and save money." />
+  <meta name="keywords"
+    content="medical bill explanation, healthcare billing, medical bill dispute, AI medical billing, insurance statement decoding" />
+  <link rel="canonical" href="https://app.analyzemybill.com/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://app.analyzemybill.com/" />
+  <meta property="og:title" content="AnalyzeMyBill: AI-Powered Medical Bill Explanation" />
+  <meta property="og:description"
+    content="Upload bills, get plain-English breakdowns, generate dispute letters, and manage your healthcare costs with AI." />
+  <meta property="og:image" content="%PUBLIC_URL%/og-image.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://app.analyzemybill.com/" />
+  <meta name="twitter:title" content="AnalyzeMyBill | AI Medical Bill Explanation &amp; Dispute Letters" />
+  <meta name="twitter:description"
+    content="Instantly decode your medical bills and insurance statements with AI-powered insights. Generate dispute letters in seconds." />
+  <meta name="twitter:image" content="%PUBLIC_URL%/og-image.png" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "AnalyzeMyBill",
+        "url": "https://app.analyzemybill.com/",
+        "description": "AI-powered medical bill explanation and dispute letter generation.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://app.analyzemybill.com/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+
+  <!-- Favicon, app icons, and manifest -->
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <!-- Additional tags (analytics, fonts, etc.) can go here -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX', {
+      send_page_view: false, // we’ll manage page views in React
+    });
+  </script>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+
+</html>
